@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2><u>Semantic Tags</u></h2>
+    <table> <!--I write the html layout as a table/container instead of <div> or <header/footer>-->
+     <thead>
+        <tr> <!--tr means table rows & td,th menas table data or basically a column for each rows-->
+            <th>Name</th> <!--th means the table headings-->
+            <th colspan="2">Jobs</th>
+            <th>Working Experience</th>
+        </tr>
+     </thead>
+        <tbody>   <!--main container of the layout-->
+            <tr>
+                <td>John</td>
+                <td>Software Engineer</td>
+                <td>Data Analyst</td>
+                <td rowspan="2">5 Years</td>
+            </tr>
+            <tr>
+                <td>Ale</td>
+                <td colspan="2">Senior Web Developer</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>Junior Text Writer</td>
+                <td>Blogger</td>
+                <td>6 Months</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2><u>Non-Semantic Tags</u>< div></h2>
+    <div> <!--head-->
+        <button>Name</button>
+        <button>Age</button>
+        <button>Class</button>
+        <button>Roll No.</button>
+    </div>
+    <div>  <!--Content-->
+        <p>Sanat</p>
+        <p>20</p>
+        <p>IVth Year</p>
+        <p>8516</p>
+    </div>
+    <h2><u>Semantic Tags < header/footer></u></h2>
+    <header> <!--so instead of writing div I can also write semantic tags like "main", "header", "footer","sidebar etc.,"-->
+        <button>Name</button>
+        <button>Age</button>
+        <button>Class</button>
+        <button>Roll No.</button>
+    </header>
+    <main>
+        <p>Sanat</p>
+        <p>20</p>
+        <p>IVth Year</p>
+        <p>8516</p>
+    </main>
+</body>
+</html>
